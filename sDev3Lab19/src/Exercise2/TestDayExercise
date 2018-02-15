@@ -1,0 +1,12 @@
+i)  Enter a day?
+    day = "fffff"
+    That's not a day
+    Bye Bye
+
+    Enter a day?
+    day = "Monday"
+    Valid
+    Thank You
+    Bye Bye
+
+

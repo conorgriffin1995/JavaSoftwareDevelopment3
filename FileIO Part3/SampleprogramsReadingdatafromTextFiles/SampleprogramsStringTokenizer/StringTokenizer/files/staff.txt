@@ -1,0 +1,4 @@
+s,"Jim Burns",10000,.1
+h,"John Boyle",20.0, 50.0
+h,"Janet Brady",20.0, 60
+s,"Nora Jones",50000,.15

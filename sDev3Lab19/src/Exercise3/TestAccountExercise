@@ -1,0 +1,38 @@
+i)  public class PosititveWithdrawalException extends Exception{
+        
+        public PosititveWithdrawalException(){
+            super("Withdrawal amount must be positive");
+        }
+
+    }
+
+ii) public class Account {
+ 
+    private double balance;
+ 
+        public Account(double balance) {
+            this.balance = balance;
+        }
+ 
+        public void withdraw(double amt) throws PosititveWithdrawalException  {
+            balance -= amt;
+            throw new PosititveWithdrawalException();
+        }
+ 
+        public double getBalance() {
+            return balance;
+        }
+}
+ 
+    class TestAccount {
+ 
+        public static void main(String[] arg) {
+            Account theAccount = new Account(200);
+            try{
+            theAccount.withdraw(-300);
+            }
+            catch(PosititveWithdrawalException e){
+            System.out.println(e.getMessage()); 
+            }
+    }
+}

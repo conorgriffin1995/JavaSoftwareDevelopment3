@@ -1,0 +1,3 @@
+Alonso,Spain,34000,23000,56000
+Vettel,Germany,80000,90000,78000
+Hamilton,UK,70000,90000,90000
